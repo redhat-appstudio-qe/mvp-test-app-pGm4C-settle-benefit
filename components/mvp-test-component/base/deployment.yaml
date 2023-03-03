@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: mvp-test-component
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/test-images@sha256:5c2f8cc503393df9a971b2e5256f2df3feae5447dca6c9ee4a164d8b90e88d9f
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:8f408864c348b30ddd3560e5aec134e6d1dcfc0804c08c7ee6c29c3e40f767b7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
